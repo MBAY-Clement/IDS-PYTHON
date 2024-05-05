@@ -66,7 +66,7 @@ Pour linux  uniquement :
 
 Vous retrouvez ci-dessous le détails des détections proposé par le programme. Pour rappel le resultat de chaque fonction est affiché dans le terminal mais égalemen dans le fichier log.txt.
 >
-> **De plus lorsqu'une fonction est déclanché il est clairement écrit dans le fichier log à quelle heure celle-ci s'est déclanchée** : 
+> **De plus lorsqu'une fonction est déclanché il est clairement écrit dans le fichier log à quelle heure celle-ci s'est déclanchée** 
 
 
 1. Information sur l'OS
@@ -87,6 +87,7 @@ Vous retrouvez ci-dessous le détails des détections proposé par le programme.
 4. Détection du changement de mot de passe d'un utilisateur
    * Explication : Lorsqu'un utilisateur change son mot de passe, cela est tracé dans le fichier de log et affiche le hash de l'ancien mot de passe puis du nouveau mot de passe
    * Résultat écrit sur le fichier de log : Mot de passe utilisateur changé : <nom de l'user> <ancien hash (mot de passe) <nouveau hash (nouveau mot de passe>
+<br>
 
 5. Détection de la connexion d'un nouvel utilisateur
    * Explication : Dès qu'un nouvel utilisateur est conencté sur la machine alors cela est détecté et tracé par le script
@@ -122,7 +123,7 @@ Vous retrouvez-ci dessous une video démonstrative lorsque le programme est exec
 
 https://github.com/MBAY-Clement/IDS-PYTHON/assets/59869618/95c30e21-f5db-498a-8251-105062b58412
 
-(PS : Le compte tata a été supprimé de la machine. ;) )
+(Après la démo le compte tata a été supprimé de la machine.)
 
 
    
